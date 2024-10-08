@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+body{
+    background-color: #cdcfdf;
+    height: 100vh;
+}
+.home{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* estilo*/
+.logo{
+    color: #1c1f30;
+   
+
+}
+header{
+    padding: 40px 4%;
+
+}
+header>.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header a{
+    color: #f5f6fa;
+    text-decoration: none ;
+    display: inline-block;
+    transition: 0.2s;
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header nav ul li button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #42496b;
+    border-radius: 40px;
+    cursor:pointer;
+
+}
+header a:hover{
+    color: #535f99;
+    transform: scale(1.08);
+   
+}
+header nav ul li button:hover{
+    box-shadow: 0px 0px 8px #464c69;
+}
+/* estilo do texto*/
+section.textodapagina{
+    padding: 40px 4%;
+
+}
+section.textodapagina .flex{
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+}
+.textodapagina h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 40px 4%;
+    
+}
+.textodapagina p{
+    font-size: 20px;
+    gap: 10px;
+    color: #2a3153;
+    margin: 40px 4%;
+
+}
+
+.img img{
+    width: 700px;
+    height: 600px;
+}
+
+.img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    
+}
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+.interface h2{
+    text-align: center;
+    color: #1c1f30;
+}
+section.habilidades {
+    padding: 40px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+.habilidades .habilidades-box {
+    color:#1c1f30
+    padding : 60px;
+    border-radius : 20px;
+    border :10px solid #0000;
+    margin-top:60px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1c1f30;
+}
+
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: #1c1f30;
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+.titulo {
+    font-size:40px;
+  
+}
+.meuhistorico{
+    text-align: center;
+    margin: 70px;
+  
+}
+.meuhistorico h2{
+    color: #1c1f30;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.meuhistorico p{
+    font-size: 22px;
+    color: #1c1f30;
+    border-radius : 30px;
+    border :10px solid #0000;
+    margin-top:30px;
+    transition: .2s;
+    text-align: justify;
+    padding: 40px;
+}
+.meuhistorico p:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1c1f30;
+
+}
+.meuhistorico .rede button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border:0;
+    background-color: #2a3153;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0px 0px 8px #202331;
+    transition: 0.2s;
+
+}
+.mapa{
+    
+    text-align: center;
+   margin: 40px
+
+}
+
+.mapa h1{
+    color: #1c1f30;
+}
+
+

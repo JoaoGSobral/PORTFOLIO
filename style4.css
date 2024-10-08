@@ -1,0 +1,18 @@
+body{
+    background-color:#cdcfdf ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:#333853 ;
+    text-align: center;
+    padding: 40px 4%;
+    font-size: 40px;
+}
+img{
+    height: 770px;
+    width: 600px;
+   
+}

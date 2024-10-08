@@ -1,0 +1,42 @@
+body{
+    background-color: #cdcfdf;
+}
+ h1{
+    text-align: center;
+    margin: 20px;
+    padding: 40px 4%;  
+    font-size: 40px;
+    color: #2a3153;
+}
+.contatos {
+    text-align: center;
+    padding: 20px;
+    color:#1c1f30
+    border: 10px solid #0000;
+    margin-top:60px; 
+    transition: .2s;
+}
+.contatos:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1c1f30;
+}
+.contatos a button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border:0;
+    background-color: #2a3153;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0px 0px 8px #202331;
+    transition: 0.2s;
+}
+.contatos p {
+    font-size: 18px;
+}
+.mapa{
+    
+    text-align: center;
+   
+}
